@@ -12,8 +12,13 @@ const PORT = process.env.PORT || 4000;
 
 app.use(express.json());
 app.use(cors({
-    origin: ['http://127.0.0.1:5500', 'http://localhost:5500',
-             'http://127.0.0.1:5500/frontend', 'http://localhost:5500/frontend']
+    origin: [
+        'http://127.0.0.1:5500',
+        'http://localhost:5500',
+        'http://127.0.0.1:5500/frontend',
+        'http://localhost:5500/frontend',
+        'https://dancing-gnome-7ebb47.netlify.app'
+    ]
 }));
 
 // ── Salud del servidor ────────────────────────

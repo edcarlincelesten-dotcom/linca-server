@@ -17,7 +17,7 @@ app.use(cors({
         'http://localhost:5500',
         'http://127.0.0.1:5500/frontend',
         'http://localhost:5500/frontend',
-        'https://dancing-gnome-7ebb47.netlify.app'
+        'https://linca-marketplace.netlify.app'
     ]
 }));
 
